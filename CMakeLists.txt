@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(allocator C)
+set(CMAKE_BUILD_TYPE Debug)
 
 add_library(stack ${CMAKE_SOURCE_DIR}/source/stack.c)
 add_library(header INTERFACE)
